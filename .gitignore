@@ -125,9 +125,12 @@ UpgradeLog*.XML
 ## Idea
 #################
 
+classes/
+*.iml
 .idea
 *.ipr
 *.iws
+run/
 
 ############
 ## Windows
