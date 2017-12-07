@@ -322,6 +322,7 @@ public abstract class TileDynamoBase extends TileInventory implements ITickable,
 
 	protected void processIdle() {
 
+		energyStorage.modifyEnergyStored(lastEnergy);
 	}
 
 	protected void processOff() {
